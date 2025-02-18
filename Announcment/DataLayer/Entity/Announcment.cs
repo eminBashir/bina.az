@@ -20,9 +20,9 @@ namespace DataLayer.Entity
         public int RegionID { get; set; }
         public int SettlementID { get; set; }
         public int AnnounceTypeID { get; set; }
-        public int UserID { get; set; }
         public int StatusID { get; set; }
         public int CategoryID { get; set; }
+        public int UserId { get; set; }
         public DateTime CreateDate { get; set; }
         public User User { get; set; }
         public ICollection<AnnouncmentImages> AnnoucmentImages { get; set; }
